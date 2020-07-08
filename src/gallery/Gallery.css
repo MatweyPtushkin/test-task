@@ -1,0 +1,22 @@
+h1 {
+  font-size: 32px;
+}
+
+.gallery header {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+/* .gallery header h1 {
+  margin-left: 25px;
+} */
+
+.myCarousel {
+  height: 250px;
+}
+
+img {
+  display: block;
+  width: 375px;
+  height: 250px;
+}

@@ -1,0 +1,54 @@
+.slick-slider {
+  padding: -20px;
+}
+
+.slider-item {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.slider-item img {
+  display: block;
+  margin: 0;
+  width: 370px;
+}
+
+.slick-dots button {
+  width: 54px;
+  background: red;
+}
+
+.slick-slider:focus,
+.slick-list:focus,
+.slick-item:focus,
+.slick-slide:focus,
+.slick-active:focus,
+.slick-slide:active {
+  outline: none;
+}
+
+.slick-arrow .slick-next {
+  background-color: black;
+  color: black;
+}
+
+.slick-active {
+  outline: none;
+}
+
+button.slick-arrow.slick-prev::before,
+button.slick-arrow.slick-next::before {
+  color: black;
+}
+
+button.slick-arrow.slick-prev::before {
+  position: absolute;
+  left: -10px;
+}
+
+button.slick-arrow.slick-next::before {
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
